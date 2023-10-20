@@ -1,0 +1,1178 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Lexend+Deca:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: small;
+}
+.nav ul li{
+/* background-color: black; */
+display:flex;
+margin-top: 6px;
+margin-right: 460px;
+justify-content: center;
+height: 80px;
+}
+.nav ul li {
+    display: inline-block;
+    padding: 3px;
+    margin-top: 18px;
+    margin-right: 2px;
+}
+
+
+
+.nav a{
+    text-decoration: none;
+    padding: 6px;
+    margin-top: 180px;
+    font-size: 17px;
+    color:white;
+    
+}
+.nav a:hover{
+    background-color: rebeccapurple;
+    border-radius: 8px;
+    opacity: .5;
+}
+.nav button{
+    background-color:white;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2p 2px;
+
+}
+.nav button:hover{
+    background-color: white;
+    border-radius: 8px;
+    opacity: .5;
+}
+.head input{
+ border: solid white;
+ background-color:transparent;
+ border-radius: 9px;
+ width: 380px;
+ height: 30px;
+ color: white;
+ cursor: pointer;
+ margin-left:80vh;
+  margin-top:0vh;
+ 
+}
+
+body {
+    background-image: url(book-library-with-open-textbook.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ .container img{
+    width: 220px;
+    height: 230px;
+    margin-left: 165vh;
+    shadow:black 2px 2px 2px;
+}
+.head h1{
+margin-top: 3vh;
+text-align: center;
+font-size: 40px;
+color: white;
+text-shadow: black 2px 2px 4px;
+}
+.head p{
+    justify-content: center;
+    width: 800px;
+    height: 100px;
+    text-align: center;
+    margin-left: 15em;
+    font-size: 25px;
+    color: rgb(252, 165, 3);
+    text-shadow: 0px 2px 4px black;
+}
+.head h1:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.head p:hover{
+    color:yellow;
+    cursor: pointer;
+}
+/* history-books */
+.line1 h1{
+text-align: left;
+margin-left: 18px;
+margin-top: 2px;
+font-size: 30px;
+color:white;
+text-shadow:  0px 2px 4px black;
+text-align: center;
+
+}
+.line1 h1{
+    background-color: rgb(252, 140, 4);
+    margin: 0%;
+    margin-top: 3vh;
+    height: 40px;
+}
+.line1 h2{
+    text-align: left;
+    margin-left: 28px;
+    margin-top: 12px;
+    font-size: 25px;
+    text-align: center;
+    color: yellow;
+    text-shadow: black 2px 2px 4px;
+}
+.line1 h2{
+    background-color: transparent;
+    box-shadow: black 3px 4px 6px;
+    margin: 0%;
+
+    
+    border-radius: 6px;
+} 
+.login button{
+    background-color: yellow;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2p 2px;
+    margin-left:100vh;
+    margin-top:6vh;
+}
+.login button:hover{
+    background-color:violet;
+
+}
+.nav select option{
+    
+    background-color: transparent;
+    border-radius: 4px;
+    border: none;
+
+}
+.nav option{
+    border: solid white;
+    border-radius: 4px; 
+
+}
+.nav select{
+    background-color:transparent;
+    
+}
+.nav select{
+    width: 180px;
+    height: 30px;
+    border: solid white;
+    border-radius: 6px;
+    color: black;
+} 
+.cover{
+    background-image: url(wallpaperflare.com_wallpaper\ \(4\).jpg);
+    background-repeat:no-repeat;
+    border-radius: 6px;
+    background-size: cover;
+}
+.book5 img{
+    border: solid yellow;
+    width: 280px;
+    height: 300px;
+    border-radius: 6px;
+    box-shadow: black 3px 4px 6px;
+}
+
+ .book5 h2:hover{
+  color: beige;  
+} 
+.book5 h1{
+    color: yellow;
+    font-size: x-large;
+    margin-left: 18vh;
+    text-shadow: 0px 2px 4px black;
+}
+.book5 img{
+    width: 280px;
+    height: 290px;
+    margin-left: 10vh;
+}
+
+.book5 button{
+    background-color: black;
+    width: 180px;
+    height: 30px;
+    color: white;
+    border-radius: 20px;
+    border:  solid white 1px;
+    box-shadow: 0px 2p 4px beige;
+    margin-top: 1vh;
+    margin-left:18vh;
+}
+.book5 h1{
+        color: yellow;
+        font-size: x-large;
+        margin-left: 18vh;
+    }
+    .book6 h3{
+        color: white;
+        font-size: small;
+        margin-left:16vh;
+        align-items: center;
+        width: 150px;
+     text-shadow: black 2px 3px 6px;
+    }
+    .book6 img{
+        width: 280px;
+        height: 290px;
+        margin-left: 30px;
+    
+    }
+    .book6 img{
+        border: solid yellow;
+        width: 280px;
+        height: 290px;
+        border-radius: 6px;
+        box-shadow: black 3px 4px 6px;
+    }
+    .book6 button{
+        background-color: yellow;
+        width: 80px;
+        height: 30px;
+        border-radius: 20px;
+        box-shadow: 2px 2p 2px;
+        margin-top: 2vh;
+        margin-left:18vh;
+    }
+    .book6 h2{
+        color: blue;
+    margin-left:18vh;
+    font-size: large;
+    text-shadow: 0px 2px 4px black;
+    }
+    .book6 button{
+        background-color: black;
+        width: 180px;
+        height: 30px;
+        color: white;
+        border-radius: 20px;
+        border:  solid white 1px;
+        box-shadow: 0px 2p 4px beige;
+        margin-top: 1vh;
+        margin-left:18vh;
+    }
+    
+    .book6 h1{
+            color: yellow;
+            font-size: x-large;
+            margin-left: 18vh;
+            text-shadow: 0px 2px 4px black;
+    }
+    .book7 h3{
+        color: white;
+        font-size: small;
+        margin-left:18vh;
+        align-items: center;
+        width: 150px;
+     text-shadow: 0px 2px 4px black;
+    }
+    .book7 button{
+        background-color: black;
+        width: 180px;
+        color: white;
+        height: 30px;
+        border-radius: 20px;
+        border: solid white 1px;
+        margin-top: 2vh;
+        margin-left:18vh;
+    }
+    .book7 img{
+        width: 280px;
+        height: 290px;
+         margin-left: 40px;
+        /* margin-right: 48px; */
+    }
+    .book7 img{
+        border: solid yellow;
+        width: 280px;
+        height: 290px;
+        border-radius: 6px;
+        box-shadow: black 3px 4px 6px;
+    }
+    
+    .book7 h1{
+        color: yellow;
+        font-size: x-large;
+        margin-left: 18vh;
+        text-shadow: 0px 2px 4px black;
+    }  */
+    /* religious-books */
+    .line2 h1{
+        text-align: left;
+        margin-left: 18px;
+        margin-top: 2px;
+        font-size: 30px;
+        color: black;
+        text-shadow: white 2px 2px 4px;
+        text-align: center;
+        
+        }
+        .line2 h1{
+            background-color: antiquewhite;
+            margin: 0%;
+            margin-top: 3vh;
+            height: 40px;
+        }
+        .line2 h2{
+            text-align: left;
+            margin-left: 28px;
+            margin-top: 12px;
+            font-size: 25px;
+            text-align: center;
+            color: yellow;
+            text-shadow: black 2px 2px 4px;
+        }
+        .line2 h2{
+            background-color: transparent;
+            box-shadow: black 3px 4px 6px;
+            margin: 0%;        
+            
+            border-radius: 6px;
+        }
+        
+        .pic {
+            display: flex;
+            margin-top: 14px;
+        
+        }
+        .book8 h1{
+            color: yellow;
+            font-size: x-large;
+            text-shadow: black 3px 4px 6px;
+            margin-left: 15vh;
+        }
+        
+        .book8 h1:hover{
+            color: aquamarine;
+            cursor: pointer;
+        }
+        .book8 h3{
+            color: white;
+            font-size: small;
+            margin-left:16vh;
+            align-items: center;
+            width: 150px;
+         text-shadow: black 2px 3px 6px;
+        }
+       
+        .book8 img{
+            width: 280px;
+            height: 290px;
+            margin-left: 5vh;
+        }
+        .book8 img{
+            border: solid yellow;
+            width: 280px;
+            height: 300px;
+            border-radius: 6px;
+            box-shadow: black 3px 4px 6px;
+            
+        }
+        .book8 h1{
+            color: yellow;
+            font-size: x-large;
+            margin-left: 15vh;
+        }
+        
+        .book8 button{
+            background-color: black;
+            width: 180px;
+            height: 30px;
+            color: white;
+            border-radius: 20px;
+            /* box-shadow: 0px 2px 4px white; */
+            border:  solid white 1px;
+            margin-top: 2vh;
+            margin-left:18vh;
+        }
+        .book8 img{
+            width: 280px;
+            height: 290px;
+            /* margin-left: 10vh; */
+        /* margin-right: 8vh; */
+        }
+        .book9 img{
+            border: solid yellow;
+            width: 280px;
+            height: 300px;
+            border-radius: 6px;
+            box-shadow: black 3px 4px 6px;
+        }
+        .book9 h2{
+            color: blue;
+        margin-left:18vh;
+        font-size: large;
+        text-shadow: 0px 2px 4px black;
+        }
+         .book9 h2:hover{
+          color: beige;  
+        } 
+        .book9 h1{
+            color: yellow;
+            font-size: x-large;
+            margin-left: 18vh;
+            text-shadow: 0px 2px 4px black;
+        }
+        
+        .book9 img{
+            width: 280px;
+            height: 290px;
+            margin-left: 10vh;
+        }
+        .book6 img:hover{
+            
+        }
+        .book9 button{
+            background-color: black;
+            color: white;
+            border:  solid white 1px;
+            width: 180px;
+            height: 30px;
+            border-radius: 20px;
+            /* box-shadow: 0px 2px 4px white; */
+            margin-top: 1vh;
+            margin-left:14vh;
+        }
+        .book9 h1{
+                color: yellow;
+                font-size: x-large;
+                margin-left: 18vh;
+            }
+            .book10 h3{
+                color: white;
+                font-size: small;
+                margin-left:16vh;
+                align-items: center;
+                width: 150px;
+             text-shadow: black 2px 3px 6px;
+            }
+            .book10 img{
+                width: 280px;
+                height: 290px;
+                margin-left: 30px;
+            
+            }
+            .book10 img{
+                border: solid yellow;
+                width: 280px;
+                height: 290px;
+                border-radius: 6px;
+                box-shadow: black 3px 4px 6px;
+            }
+            .book10 button{
+                background-color: black;
+                width: 180px;
+                height: 30px;
+                color: white;
+                border-radius: 20px;
+                /* box-shadow: 0px 2px 4px white; */
+                border:  solid white 1px;
+                margin-top: 2vh;
+                margin-left:18vh;
+            }
+            .book10 h2{
+                color: blue;
+            margin-left:18vh;
+            font-size: large;
+            text-shadow: 0px 2px 4px black;
+            }
+            .book10 h3{
+                color: white;
+                font-size: small;
+                margin-left:16vh;
+                align-items: center;
+                width: 150px;
+             text-shadow: black 2px 3px 6px;
+            }
+            .book10 h1{
+                    color: yellow;
+                    font-size: x-large;
+                    margin-left: 18vh;
+                    text-shadow: 0px 2px 4px black;
+            }
+            .book11 h3{
+                color: white;
+                font-size: small;
+                margin-left:18vh;
+                align-items: center;
+                width: 150px;
+             text-shadow: 0px 2px 4px black;
+            }
+            .book11 button{
+                background-color: black;
+                width: 180px;
+                height: 30px;
+                color: white;
+                border-radius: 20px;
+                /* box-shadow: 0px 2px 4px white; */
+                border:  solid white 1px;
+                margin-top: 2vh;
+                margin-left:18vh;
+            }
+            .book11 img{
+                width: 280px;
+                height: 290px;
+                margin-left: 30px;
+                /* margin-right: 18vh; */
+            }
+            .book11 img{
+                border: solid yellow;
+                width: 280px;
+                height: 290px;
+                border-radius: 6px;
+                box-shadow: black 3px 4px 6px;
+            }
+            .book11 h2{
+                color: blue;
+                margin-left:18vh;
+                font-size: large;
+                text-shadow:0px 2px 4px black
+            }
+            .book11 h1{
+                color: yellow;
+                font-size: x-large;
+                margin-left: 18vh;
+                text-shadow: 0px 2px 4px black;
+            }
+            /* school-books */
+            .line3 h1{
+                text-align: left;
+                margin-left: 18px;
+                margin-top: 2px;
+                font-size: 30px;
+                color: black;
+                text-shadow: white 2px 2px 4px;
+                text-align: center;
+                
+                }
+                .line3 h1{
+                    margin: 0%;
+                    margin-top: 3vh;
+                    height: 40px;
+                    
+                }
+                .line3 h1{
+                    text-align: left;
+                    margin-left: 28px;
+                    margin-top: 12px;
+                    font-size: 25px;
+                    text-align: center;
+                    color: yellow;
+                    text-shadow: black 2px 2px 4px;
+                }
+                 .line3 h1{
+                    background-color: transparent;
+                    box-shadow: black 3px 4px 6px;
+                    margin: 0%;        
+                     
+                    border-radius: 6px;
+                }
+                
+                .pic {
+                    display: flex;
+                    margin-top: 14px;
+                }
+                .book12 h1{
+                    color: yellow;
+                    font-size: x-large;
+                    text-shadow: black 3px 4px 6px;
+                    margin-left: 15vh;
+                }
+                
+                .book12 h1:hover{
+                    color: aquamarine;
+                    cursor: pointer;
+                }
+                .book12 h3{
+                    color: white;
+                    font-size: small;
+                    margin-left:16vh;
+                    align-items: center;
+                    width: 150px;
+                 text-shadow: black 2px 3px 6px;
+                }
+               
+                .book12 img{
+                    width: 280px;
+                    height: 290px;
+                  margin-left: 30px;
+                }
+                .book12 img{
+                    border: solid yellow;
+                    width: 280px;
+                    height: 300px;
+                    border-radius: 6px;
+                    box-shadow: black 3px 4px 6px;
+                    
+                }
+                .book12 h1{
+                    color: yellow;
+                    font-size: x-large;
+                    margin-left: 15vh;
+                }
+                .book12 h3{
+                    color: white;
+                    font-size: small;
+                    margin-left:16vh;
+                    align-items: center;
+                    width: 150px;
+                 text-shadow: black 2px 3px 6px;
+                }
+                .book12 h2{
+                    color: blueviolet;
+                    margin-left:18vh;
+                    font-size: large;
+                
+                }
+                
+                .book12 button{
+                    background-color: black;
+                    width: 180px;
+                    height: 30px;
+                    color: white;
+                    border-radius: 20px;
+                    /* box-shadow: 0px 2px 4px white; */
+                    border:  solid white 1px;
+                    margin-top: 2vh;
+                    margin-left:18vh;
+                }
+                .book13 img{
+                    width: 280px;
+                    height: 290px;
+                     margin-left: 10vh;
+                
+                }
+                .book13 img{
+                    border: solid yellow;
+                    width: 280px;
+                    height: 300px;
+                    border-radius: 6px;
+                    box-shadow: black 3px 4px 6px;
+                }
+                .book13 h2{
+                    color: blue;
+                margin-left:18vh;
+                font-size: large;
+                text-shadow: 0px 2px 4px black;
+                }
+                 .book13 h2:hover{
+                  color: beige;  
+                } 
+                .book13 h1{
+                    color: yellow;
+                    font-size: x-large;
+                    margin-left: 18vh;
+                    text-shadow: 0px 2px 4px black;
+                }
+                .book13 h3{
+                    color:white;
+                    font-size: small;
+                    margin-left:18vh;
+                    align-items: center;
+                    width: 150px;
+                 text-shadow: 0px 2px 4px black;
+                }
+                .book13 img{
+                    width: 280px;
+                    height: 290px;
+                    /* margin-left: 10vh; */
+                }
+                .book13 img:hover{
+                    
+                }
+                .book13 button{
+                    background-color: black;
+                    width: 180px;
+                    height: 30px;
+                    color: white;
+                    border-radius: 20px;
+                    /* box-shadow: 0px 2px 4px white; */
+                    border:  solid white 1px;
+                    margin-top: 2vh;
+                    margin-left:18vh;
+                }
+                .book13 h1{
+                        color: yellow;
+                        font-size: x-large;
+                        margin-left: 18vh;
+                    }
+                    .book14 h3{
+                        color: white;
+                        font-size: small;
+                        margin-left:16vh;
+                        align-items: center;
+                        width: 150px;
+                     text-shadow: black 2px 3px 6px;
+                    }
+                    .book14 img{
+                        width: 280px;
+                        height: 290px;
+                        margin-left: 30px;
+                    }
+                    .book14 img{
+                        border: solid yellow;
+                        width: 280px;
+                        height: 290px;
+                        border-radius: 6px;
+                        box-shadow: black 3px 4px 6px;
+                    }
+                    .book14 button{
+                        background-color: black;
+                        width: 180px;
+                        height: 30px;
+                        color: white;
+                        border-radius: 20px;
+                        /* box-shadow: 0px 2px 4px white; */
+                        border:  solid white 1px;
+                        margin-top: 2vh;
+                        margin-left:18vh;
+                    }
+                    .book14 h2{
+                        color: blue;
+                    margin-left:18vh;
+                    font-size: large;
+                    text-shadow: 0px 2px 4px black;
+                    }
+                    .book14 h3{
+                        color: white;
+                        font-size: small;
+                        margin-left:16vh;
+                        align-items: center;
+                        width: 150px;
+                     text-shadow: black 2px 3px 6px;
+                    }
+                    .book14 h1{
+                            color: yellow;
+                            font-size: x-large;
+                            margin-left: 18vh;
+                            text-shadow: 0px 2px 4px black;
+                    }
+                    .book15 h3{
+                        color: white;
+                        font-size: small;
+                        margin-left:18vh;
+                        align-items: center;
+                        width: 150px;
+                     text-shadow: 0px 2px 4px black;
+                    }
+                    .book15 button{
+                        background-color: black;
+                        width: 180px;
+                        height: 30px;
+                        color: white;
+                        border-radius: 20px;
+                        /* box-shadow: 0px 2px 4px white; */
+                        border:  solid white 1px;
+                        margin-top: 2vh;
+                        margin-left:18vh;
+                    }
+                    .book15 img{
+                        width: 280px;
+                        height: 290px;
+                        margin-left: 30px;
+                    }
+                    .book15 img{
+                        border: solid yellow;
+                        width: 280px;
+                        height: 290px;
+                        border-radius: 6px;
+                        box-shadow: black 3px 4px 6px;
+                    }
+                    .book15 h2{
+                        color: blue;
+                        margin-left:18vh;
+                        font-size: large;
+                        text-shadow:0px 2px 4px black
+                    }
+                    .book15 h1{
+                        color: yellow;
+                        font-size: x-large;
+                        margin-left: 18vh;
+                        text-shadow: 0px 2px 4px black;
+                        /* college-books */
+                    }
+                                .line4 h1{
+                                    text-align: left;
+                                    margin-left: 18px;
+                                    margin-top: 2px;
+                                    font-size: 30px;
+                                    color: black;
+                                    text-shadow: white 2px 2px 4px;
+                                    text-align: center;
+                                    
+                                    }
+                                    .line4 h1{
+                                        margin: 0%;
+                                        margin-top: 3vh;
+                                        height: 40px;
+                                        
+                                    }
+                                    .line4 h1{
+                                        text-align: left;
+                                        margin-left: 28px;
+                                        margin-top: 12px;
+                                        font-size: 25px;
+                                        text-align: center;
+                                        color: yellow;
+                                        text-shadow: black 2px 2px 4px;
+                                    }
+                                     .line4 h1{
+                                        background-color: transparent;
+                                        box-shadow: black 3px 4px 6px;
+                                        margin: 0%;        
+                                         
+                                        border-radius: 6px;
+                                    }
+                                    
+                                    .pic {
+                                        display: flex;
+                                        margin-top: 14px;
+                                    
+                                    }
+                                    .book16 h1{
+                                        color: yellow;
+                                        font-size: x-large;
+                                        text-shadow: black 3px 4px 6px;
+                                        margin-right: 30px;
+                                    }
+                                    
+                                    .book16 h1:hover{
+                                        color: aquamarine;
+                                        cursor: pointer;
+                                    }
+                                    .book16 h3{
+                                        color: white;
+                                        font-size: small;
+                                        margin-left:16vh;
+                                        align-items: center;
+                                        width: 150px;
+                                     text-shadow: black 2px 3px 6px;
+                                    }
+                                   
+                                    .book16 img{
+                                        width: 280px;
+                                        height: 290px;
+                                        margin-left: 30px;
+                                    
+                                    }
+                                    .book16 img{
+                                        border: solid yellow;
+                                        width: 280px;
+                                        height: 290px;
+                                        border-radius: 6px;
+                                        box-shadow: black 3px 4px 6px;
+                                        
+                                    }
+                                    .book16 h1{
+                                        color: yellow;
+                                        font-size: x-large;
+                                        margin-left: 15vh;
+                                    }
+                                    .book16 h3{
+                                        color: white;
+                                        font-size: small;
+                                        margin-left:16vh;
+                                        align-items: center;
+                                        width: 150px;
+                                     text-shadow: black 2px 3px 6px;
+                                    }
+                                    .book16 h2{
+                                        color: blueviolet;
+                                        margin-left:18vh;
+                                        font-size: large;
+                                    
+                                    }
+                                    
+                                    .book16 button{
+                                        background-color: black;
+                                        width: 180px;
+                                        height: 30px;
+                                        color: white;
+                                        border-radius: 20px;
+                                        /* box-shadow: 0px 2px 4px white; */
+                                        border:  solid white 1px;
+                                        margin-top: 2vh;
+                                        margin-left:18vh;
+                                    }
+                                    .book17 img{
+                                        width: 280px;
+                                        height: 290px;
+                        
+                                    
+                                    }
+                                    .book17 img{
+                                        border: solid yellow;
+                                        width: 280px;
+                                        height: 300px;
+                                        border-radius: 6px;
+                                        box-shadow: black 3px 4px 6px;
+                                        margin-left: 10vh;
+                                    }
+                                    .book17 h2{
+                                        color: blue;
+                                    margin-left:18vh;
+                                    font-size: large;
+                                    text-shadow: 0px 2px 4px black;
+                                    }
+                                     .book17 h2:hover{
+                                      color: beige;  
+                                    } 
+                                    .book17 h1{
+                                        color: yellow;
+                                        font-size: x-large;
+                                        margin-left: 18vh;
+                                        text-shadow: 0px 2px 4px black;
+                                    }
+                                    .book17 h3{
+                                        color:white;
+                                        font-size: small;
+                                        margin-left:18vh;
+                                        align-items: center;
+                                        width: 150px;
+                                     text-shadow: 0px 2px 4px black;
+                                    }
+                                    .book17 img{
+                                        width: 280px;
+                                        height: 290px;
+                                        /* margin-left: 10vh; */
+                                    }
+                                    .book17 img:hover{
+                                        
+                                    }
+                                    .book17 button{
+                                        background-color: black;
+                                        width: 180px;
+                                        height: 30px;
+                                        color: white;
+                                        border-radius: 20px;
+                                        /* box-shadow: 0px 2px 4px white; */
+                                        border:  solid white 1px;
+                                        margin-top: 2vh;
+                                        margin-left:18vh;
+                                    }
+                                    .book17 h1{
+                                            color: yellow;
+                                            font-size: x-large;
+                                            margin-left: 18vh;
+                                        }
+                                        .book18 h3{
+                                            color: white;
+                                            font-size: small;
+                                            margin-left:16vh;
+                                            align-items: center;
+                                            width: 150px;
+                                         text-shadow: black 2px 3px 6px;
+                                        }
+                                        .book18 img{
+                                            width: 280px;
+                                            height: 290px;
+                                            /* margin-left: 10vh; */
+                                        }
+                                        .book18 img{
+                                            border: solid yellow;
+                                            width: 280px;
+                                            height: 290px;
+                                            border-radius: 6px;
+                                            box-shadow: black 3px 4px 6px;
+                                        }
+                                        .book18 button{
+                                            background-color: black;
+                                            width: 180px;
+                                            height: 30px;
+                                            color: white;
+                                            border-radius: 20px;
+                                            /* box-shadow: 0px 2px 4px white; */
+                                            border:  solid white 1px;
+                                            margin-top: 2vh;
+                                            margin-left:18vh;
+                                        }
+                                        .book18 h2{
+                                            color: blue;
+                                        margin-left:18vh;
+                                        font-size: large;
+                                        text-shadow: 0px 2px 4px black;
+                                        }
+                                        .book18 h3{
+                                            color: white;
+                                            font-size: small;
+                                            margin-left:16vh;
+                                            align-items: center;
+                                            width: 150px;
+                                         text-shadow: black 2px 3px 6px;
+                                        }
+                                        .book18 h1{
+                                                color: yellow;
+                                                font-size: x-large;
+                                                margin-left: 18vh;
+                                                text-shadow: 0px 2px 4px black;
+                                        }
+                                        .book19 h3{
+                                            color: white;
+                                            font-size: small;
+                                            margin-left:18vh;
+                                            align-items: center;
+                                            width: 150px;
+                                         text-shadow: 0px 2px 4px black;
+                                        }
+                                        .book19 button{
+                                            background-color: black;
+                                            width: 180px;
+                                            height: 30px;
+                                            color: white;
+                                            border-radius: 20px;
+                                            /* box-shadow: 0px 2px 4px white; */
+                                            border:  solid white 1px;
+                                            margin-top: 2vh;
+                                            margin-left:18vh;
+                                        }
+                                        .book19 img{
+                                            width: 280px;
+                                            height: 290px;
+                                             /* margin-left: 10vh; */
+                                        }
+                                        .book19 img{
+                                            border: solid yellow;
+                                            width: 280px;
+                                            height: 290px;
+                                            border-radius: 6px;
+                                            box-shadow: black 3px 4px 6px;
+                                        }
+                                        .book19 h2{
+                                            color: blue;
+                                            margin-left:18vh;
+                                            font-size: large;
+                                            text-shadow:0px 2px 4px black
+                                        }
+                                        .book19 h1{
+                                            color: yellow;
+                                            font-size: x-large;
+                                            margin-left: 18vh;
+                                            text-shadow: 0px 2px 4px black;
+                                        }
+                                        .read h1{
+                                            color: white;
+                                             background-color: transparent;
+                                             height: 40px;
+                                             text-shadow: 0px 2px 4px black;
+                                             box-shadow: 2px 2px 4px black;
+                                             text-align: center;
+                                             font-size: 30px;
+                                             
+                                            }
+                                 .about h1{
+                                    font-size: 40px;
+                                    color:yellow;
+                                    text-shadow: 0px 2px 4px black;
+                                    margin-left: 57px;
+                                    margin-top: 3px;
+                                 } 
+                                 .about{
+                                    background-image: url(dev.jpg.jpg);
+                                    background-size: cover;
+
+                                 }   
+                                 .about p{
+                                    margin-left: 20px;
+                                    font-size: 18px;
+                                    align-items: center;
+                                    width: 400px;
+                                    margin-top: 3px;
+                                    color: white;
+                                    text-shadow: 0px 2px 4px black;
+                                 }       
+                                  .about h2 ul li{
+                                    display: flex;
+                                   
+                                  }  
+                                  .about{
+                                    border: solid snow;
+                                  } 
+                                 footer{
+                                    background-color: green;
+                                 }
+                                 footer h1{
+                                    font-size: 20px;
+                                    text-align: center;
+                                    margin-top: 3px;
+                                 }
+                                 .us2 h1{
+                                    font-size: 20px;
+                                    text-align: center;
+                                    margin-top: 3px;
+                                    margin-left: 30px;
+                                color: yellow;
+                            
+                                 }
+                                 .us2  a{
+                                    font-size: 15px;
+                                    color: wheat;
+                                    text-decoration: none;
+                                 }
+                               .us2 a{
+                                margin-left: 40px;
+                               }
+                                
+                                 .foot{
+                                    display: flex;
+                                    justify-content: center;
+                                    padding-left: 12px;
+                                    width: 600px;
+                                    margin-left: 260px;
+                                 }
+                                 footer h2{
+                                    text-align: center;
+                                    color: yellow;
+                                 }
+                                 .us3  a{
+                                    font-size: 15px;
+                                color: wheat;
+                                    margin-left: 60px;
+                                    text-decoration: none;
+                                 }
+                                 .us4  a{
+                                    font-size: 15px;
+                                color: wheat;
+                                    margin-left: 40px;
+                                    text-decoration: none;
+                                 }
+                                 .us5  a{
+                                    font-size: 15px;
+                                color: wheat;
+                                    margin-left: 40px;
+                                    text-decoration: none;
+                                 }
+                                 .us5 h1{
+                                    font-size: 20px;
+                                    text-align: center;
+                                 color: yellow;
+                                    margin-top: 3px;
+                                 }
+                                 .us3 h1{
+                                    color: yellow;
+                                 }
+                                 .us4 h1{
+                                    color: yellow;
+                                 }
+                                 .icon i{
+                                   font-size: 30px;
+                                    margin-left: 20px;
+                                    border: solid transparent;
+                                    border-radius: 12px;
+                                    box-shadow: 0px 2px 4px black;
+                                    color: wheat;
+                                 }
+                                 .icon{
+                                    margin-left: 500px;
+                                    margin-top: 3vh;
+                                    
+                                 }
